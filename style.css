@@ -1,0 +1,67 @@
+body {
+    background-color: #465F9D;
+}
+
+.fr-visual {
+    background-color: #FFFFFF;
+}
+
+.fr-visual__title {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.fr-visual__desc {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media screen and (width > 600px) {
+    .fr-container__visual {
+        position: absolute;
+        top: 50%; 
+        right: 50%;
+        transform: translate(50%,-50%);
+    }
+
+    .fr-grid-row {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .fr-responsive-img {
+        height: 350px;
+        width: auto;
+    }
+
+    .fr-visual {
+        height: 270px;
+        width: 360px;
+        margin-left: -300px;
+    }
+
+    .fr-card__body {
+        margin-top: 70px;
+    }
+
+    .fr-visual__title {
+        font-size: 32px;
+    }
+
+    .fr-visual__desc {
+        font-size: 16px;
+    }
+
+    .fr-content-media__img {
+        width: auto;
+        margin-right: -200px;
+    }
+
+    .fr-btns-group--md {
+        flex: 0;
+    }
+
+    .fr-btn {
+        font-size: 15px !important;
+    }
+}
